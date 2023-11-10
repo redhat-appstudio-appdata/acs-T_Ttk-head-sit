@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: central-db
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: central-db
+    app.kubernetes.io/part-of: acs
+  name: central-dbkxi3
+spec:
+  port:
+    targetPort: 5432
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: central-db
+    weight: 100
+status: {}
