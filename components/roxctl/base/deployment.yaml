@@ -10,6 +10,7 @@ metadata:
     app.kubernetes.io/part-of: acs
   name: roxctl
 spec:
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
@@ -22,7 +23,7 @@ spec:
         app.kubernetes.io/instance: roxctl
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/roxctl@sha256:665bb71f1ead63b30b71054270326a264366dd9f343968c15c215f0aece1c575
+      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/roxctl@sha256:f01b489a683750264b3577a0d582ed77db12ce166dd513863f7eba60e3a772f0
         imagePullPolicy: Always
         name: container-image
         ports:
