@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: operator
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/operator@sha256:e92529e5a9dd532e2f49be27756a4245efcbe8c9638278f6d68e19cd270f0170
+        name: container-image
+        resources: {}
+status: {}
