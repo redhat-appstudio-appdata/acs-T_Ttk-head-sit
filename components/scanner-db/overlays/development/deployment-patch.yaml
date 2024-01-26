@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: scanner-db
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/scanner-db@sha256:dd8737759ec3bd8206de4f212f2286bc59ee618460070c1f996e4eb9bb501ab0
+        name: container-image
+        resources: {}
+status: {}
