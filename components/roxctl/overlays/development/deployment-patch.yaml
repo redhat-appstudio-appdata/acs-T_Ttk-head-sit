@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/roxctl@sha256:cba3f4c9a3a3ef385ba08cecd744237b8388acc05d802f25c0e989e5cb4087ff
+      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/roxctl@sha256:2145e5461485a3426e52d375bae15586bdc29ac22bea4f8284ff4c4d1adc77eb
         name: container-image
         resources: {}
 status: {}
