@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: central-db
     app.kubernetes.io/part-of: acs
-  name: central-dbwbjk
+  name: central-dbccwp
 spec:
   port:
     targetPort: 5432
