@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: main
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/main@sha256:bb7487864014868b22ae34c04fef13e9089cede8fd5494036a5807f301c50183
+      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/main@sha256:3cc1b6a22a6e788c551192a9ffa41d8ea74d650c226f8a94a532ece3439b5259
         name: container-image
         resources: {}
 status: {}
