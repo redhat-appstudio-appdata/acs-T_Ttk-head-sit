@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: main
     app.kubernetes.io/part-of: acs
-  name: mainxlw7
+  name: mainafea
 spec:
   port:
     targetPort: 8080
