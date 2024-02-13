@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: scanner
     app.kubernetes.io/part-of: acs
-  name: scannerpw0z
+  name: scannerzgva
 spec:
   port:
     targetPort: 9090
