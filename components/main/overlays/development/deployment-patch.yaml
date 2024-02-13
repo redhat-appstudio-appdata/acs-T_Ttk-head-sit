@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: main
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
