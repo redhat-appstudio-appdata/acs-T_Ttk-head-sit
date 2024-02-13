@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: operator
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/operator@sha256:56bffcd638bddde77bd856481244833abc8820c1af5e057dd13a33231413a31d
+      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/operator@sha256:2fe4891a86d097846a37d3858218d243918ec9f36c1cb44ba28c03e2a56b65bb
         name: container-image
         resources: {}
 status: {}
