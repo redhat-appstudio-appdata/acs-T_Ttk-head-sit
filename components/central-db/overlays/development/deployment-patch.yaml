@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: central-db
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
