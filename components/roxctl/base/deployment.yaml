@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: roxctl
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/roxctl@sha256:6074ffe1af93480519f8566ac97544de19bd91b4542feb0f64e64bed3aac830c
+      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/roxctl@sha256:35639f18d7931f45c944a8017ae3b79f997430c1385354761236e53ccc43998d
         imagePullPolicy: Always
         name: container-image
         ports:
