@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: collector
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: collector
+    app.kubernetes.io/part-of: acs
+  name: collectorr5g2
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: collector
+    weight: 100
+status: {}

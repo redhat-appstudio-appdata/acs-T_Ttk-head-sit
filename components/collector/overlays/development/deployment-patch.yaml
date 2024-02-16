@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: collector
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/collector@sha256:34c1c68c37ab847d23e41501b7eb8646df8d4ed926e7818162149dee5c116503
+        name: container-image
+        resources: {}
+status: {}
