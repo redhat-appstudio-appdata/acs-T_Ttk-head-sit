@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: collector
     app.kubernetes.io/part-of: acs
-  name: collectorr5g2
+  name: collectorgbnl
 spec:
   port:
     targetPort: 8080
