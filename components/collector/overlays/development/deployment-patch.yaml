@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/collector@sha256:eb2a33ea12e7785b070b913415a184f3185b5d91e57de035eac0ae0572016b06
+      - image: quay.io/redhat-user-workloads/rh-acs-tenant/acs/collector@sha256:d03579d0c0b88f02c13663d9b6b829fd7505d8f551cb987bb34d59ca9c654558
         name: container-image
         resources: {}
 status: {}
