@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: main
     app.kubernetes.io/part-of: acs
-  name: maint3fh
+  name: mainnojb
 spec:
   port:
     targetPort: 8080
