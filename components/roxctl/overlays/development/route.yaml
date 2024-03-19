@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: roxctl
     app.kubernetes.io/part-of: acs
-  name: roxctlzpoc
+  name: roxctlzap8
 spec:
   port:
     targetPort: 8080
