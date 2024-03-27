@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: scanner-db-slim
     app.kubernetes.io/part-of: acs
-  name: scanner-db-slimjmfa
+  name: scanner-db-slimenjn
 spec:
   path: /
   port:
