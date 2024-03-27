@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: collector-slim
     app.kubernetes.io/part-of: acs
-  name: collector-slimz3u4
+  name: collector-slimajpv
 spec:
   path: /
   port:
